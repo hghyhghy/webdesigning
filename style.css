@@ -1,0 +1,109 @@
+/* border styling in css */
+
+h1 {
+  padding-left: 20px;
+}
+body {
+  background-image: url('https://imageio.forbes.com/specials-images/imageserve/647994d97ff0e466a60e1090/0x0.jpg?format=jpg&width=2400');
+}
+
+p1 {
+  border-radius: 20px;
+  border: 2px dotted black;
+}
+h1 {
+  border-width: 6px;
+
+  border-style: double;
+
+  border-color: bisque;
+}
+
+h3 {
+  border-width: 5px;
+
+  border-style: solid;
+
+  border-color: black;
+}
+
+p {
+  background-color: azure;
+  height: 50px;
+  width: 800px;
+}
+
+h1 {
+  color: yellow;
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+}
+
+button {
+  color: rgb(100, 60, 70);
+}
+
+body {
+  background-color: rgb(255, 0, 0);
+  background-image: -webkit-linear-gradient();
+}
+
+button {
+  background-color: yellow;
+}
+
+header {
+  color: aqua;
+  background-color: #0000ff;
+}
+#HEADING1 {
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+
+/* using text  alling */
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: yellow wavy underline;
+}
+
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+h1 {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  text-align: right;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+p1 {
+  text-align: left;
+
+  font-size: 30px;
+
+  text-transform: uppercase;
+}
+
+/* to give space between lines we use line-height  */
