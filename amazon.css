@@ -1,0 +1,418 @@
+.box {
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* to make the border inside the element */
+
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  /* to make all lines display on a same line */
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url('amazon_logo.png');
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  justify-content: left;
+  margin-right: 100px;
+}
+.border {
+  border: 1px solid transparent;
+}
+
+/* to make the element show white border while hovering we use */
+
+.border:hover {
+  border: 1px solid white;
+}
+
+/* box2 */
+
+.a1 {
+  color: #cccccc;
+
+  font-size: 0.79rem;
+  margin-left: 18px;
+}
+
+.a2 {
+  color: white;
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.SS {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.SS0 {
+  width: 500px;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+.ss1 {
+  font-size: 0.88rem;
+  font-weight: bolder;
+  font-size: smaller;
+}
+
+.b {
+  background-color: white;
+  height: 42px;
+  width: 45px;
+  font-size: 1.2rem;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+/* to make the icon size smaller or bigger which is inside a class we do use */
+
+.c {
+  font-size: 20px;
+}
+.c {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.panel {
+  height: 50px;
+  background-color: #222f3d;
+
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.op {
+  margin-left: 10px;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  width: 80%;
+  text-decoration: none;
+
+  font-size: 0.65rem;
+}
+
+.all {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.deals {
+  font-size: 0.9rem;
+}
+.hero {
+  background-image: url('hero_image.jpg');
+
+  height: 350px;
+  width: ;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.m {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  width: 80%;
+  margin-bottom: 50px;
+}
+.m a {
+  color: #007185;
+}
+
+.box {
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 23%;
+  padding: 20px 0px 15px;
+  margin-left: 10px;
+  background-color: skyblue;
+  margin-top: 15px;
+}
+.shop {
+  display: flex;
+  /* to make four boxes in one segment we use  */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.img1 {
+  background-image: url('box1_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img2 {
+  background-image: url('box2_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img3 {
+  background-image: url('box3_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img4 {
+  background-image: url('box4_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img5 {
+  background-image: url('box5_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img6 {
+  background-image: url('box6_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img7 {
+  background-image: url('box7_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img8 {
+  background-image: url('box8_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img9 {
+  background-image: url('box9_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img10 {
+  background-image: url('box10_image.jfif');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.img11 {
+  background-image: url('box11_image.jpg');
+
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.content {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.content p {
+  color: #007185;
+}
+footer {
+  margin-top: 16px;
+}
+.p1 {
+  background-color: #37475a;
+  color: white;
+  height: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 0.88rem;
+}
+
+.p {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .p a {
+  display: block;
+} */
+
+ul1 a {
+  display: flex;
+  font-size: small;
+  color: #dddddd;
+}
+ul2 a {
+  display: flex;
+  font-size: small;
+  color: #dddddd;
+}
+ul3 a {
+  display: flex;
+  font-size: small;
+  color: #dddddd;
+}
+ul4 a {
+  display: flex;
+  font-size: small;
+  color: #dddddd;
+}
+ul2 p {
+  font-size: large;
+  font-weight: bolder;
+  color: yellow;
+}
+ul1 p {
+  font-size: large;
+  font-weight: bolder;
+  color: yellow;
+}
+ul3 p {
+  font-size: large;
+  font-weight: bolder;
+  color: yellow;
+}
+ul4 p {
+  font-size: large;
+  font-weight: bolder;
+  color: yellow;
+}
+ul1 {
+  margin-top: 10px;
+}
+ul2 {
+  margin-top: 10px;
+}
+ul3 {
+  margin-top: 10px;
+}
+ul4 {
+  margin-top: 10px;
+}
+.p3 {
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l {
+  background-image: url('amazon_logo.png');
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  justify-content: left;
+  margin-right: 100px;
+}
+
+.content a {
+  font-size: medium;
+  font-weight: bolder;
+}
+.content a {
+  font-size: medium;
+  font-weight: bolder;
+}
+.op a {
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.ss1 a {
+  color: chartreuse;
+  font-weight: bolder;
+}
